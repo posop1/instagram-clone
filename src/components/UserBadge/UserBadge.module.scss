@@ -1,0 +1,22 @@
+.UserBadge {
+  display: flex;
+  cursor: pointer;
+}
+.image {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.palceholder {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #efefef;
+}
+.nickName {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
