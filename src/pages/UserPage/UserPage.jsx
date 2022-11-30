@@ -1,5 +1,10 @@
+import { Layout } from '../../components/Layout'
 import s from './UserPage.module.scss'
 
 export const UserPage = () => {
-  return <div>user page</div>
+  return (
+    <Layout>
+      <div>UserPage</div>
+    </Layout>
+  )
 }
