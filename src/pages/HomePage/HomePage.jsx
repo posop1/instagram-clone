@@ -1,5 +1,13 @@
+import { Layout } from '../../components/Layout'
 import s from './HomePage.module.scss'
 
 export const HomePage = () => {
-  return <div>home page</div>
+  return (
+    <Layout
+      nickName="asd"
+      id={1}
+    >
+      <div>main</div>
+    </Layout>
+  )
 }
