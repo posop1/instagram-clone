@@ -1,0 +1,56 @@
+.DetailCard {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  width: 100%;
+  border: 1px solid #dbdbdb;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.Image__container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.Buttons {
+  max-width: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.Likes {
+  font-size: 14px;
+  opacity: 0.7;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.comments {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.Badge {
+  padding: 10px 0px 10px 20px;
+  display: flex;
+  align-items: center;
+  background: #fff;
+}
+.inp {
+  display: flex;
+  align-items: center;
+  padding: 12px 10px;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  background: none;
+}
+.MoreComment {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.9;
+  cursor: pointer;
+}
